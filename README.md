@@ -5,10 +5,12 @@ If Running from terminal with sbt
 "sbt run" output will be:
 [info] Running ClockApplication
 
-sample user input hours, minutes, seconds (do not prepend 0 so '4' instead of '04')
+enter input hours, minutes, seconds (do not prepend 0 so '4' instead of '04')
+
+sample user input:
 13,23,59
 
-sample output
+output:
 Converted to Berlin clock:
 OFF
 RR
@@ -17,9 +19,11 @@ YYRY
 YYY
 
 
-if there are not lights on you will see an empty line:
+if there are not lights on, you will see an empty line
+sample user input:
 4,3,6
 
+output:
 Converted to Berlin clock:
 ON
 
